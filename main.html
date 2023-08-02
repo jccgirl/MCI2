@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ping Pong Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="startScreen" class="container">
+    <h1 class="header">Welcome to the Ping Pong Game</h1>
+    <p class="sub-header">Choose a level to play with your partner:</p>
+    <div class="difficulty-selection">
+      <button id="easyBtn">Easy</button>
+      <button id="mediumBtn">Medium</button>
+      <button id="hardBtn">Hard</button>
+    </div>
+  </div>
+  <div id="gameScreen" class="canvas-container" style="display: none;">
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
